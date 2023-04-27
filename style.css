@@ -108,6 +108,7 @@ body {
                 background-position: center;
                 background-repeat: no-repeat;
                 cursor: pointer;
+                transition: color 300ms ease-in-out;
             }
                 .box_header--picture:hover > .header_picture--img1 {
                     opacity: .5;
