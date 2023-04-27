@@ -102,13 +102,13 @@ body {
             align-items: center;
             width: 100%;
             border-radius: 15px;
+            transition: color 300ms ease-in-out;
         }
             .box_header--picture:hover {
                 background-color: var(--cyan);
                 background-position: center;
                 background-repeat: no-repeat;
                 cursor: pointer;
-                transition: color 300ms ease-in-out;
             }
                 .box_header--picture:hover > .header_picture--img1 {
                     opacity: .5;
